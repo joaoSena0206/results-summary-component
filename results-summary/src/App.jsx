@@ -1,8 +1,10 @@
 import "./App.css";
-
+import Result from "./features/result";
 
 function App() {
-    return (<h1>Teste</h1>);
+    return (
+        <Result score={50} />
+    );
 }
 
 export default App;
