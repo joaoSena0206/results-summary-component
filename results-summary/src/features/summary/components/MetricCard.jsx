@@ -15,7 +15,7 @@ export default function MetricCard({ icon, metricName, score }) {
 
     return (
         <div
-            className={`flex justify-between ${bgColors[icon]} px-3 py-5 rounded-lg`}>
+            className={`flex justify-between ${bgColors[icon]} px-3 py-5 rounded-lg space-x-20`}>
             <div className="flex space-x-3">
                 <img
                     src={icons[`../icons/icon-${icon}.svg`].default}
